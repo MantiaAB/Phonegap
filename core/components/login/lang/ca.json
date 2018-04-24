@@ -32,7 +32,7 @@
     "invalidurl": "L'URL no és vàlid",
     "invalidvaluemax": "El valor màxim és {{$a}}",
     "invalidvaluemin": "El valor mínim és {{$a}}",
-    "localmobileunexpectedresponse": "Les característiques addicionals de Moodle Mobile han tornat una resposta inesperada, us heu d'autenticar fent servir el servei estàndard de Mobile.",
+    "localmobileunexpectedresponse": "Les característiques addicionals de Moodle Mantia App han tornat una resposta inesperada, us heu d'autenticar fent servir el servei estàndard de Mobile.",
     "loggedoutssodescription": "Heu de tornar-vos a auteniticar. Cal que entreu al lloc des d'una finestra de navegador.",
     "login": "Inicia la sessió",
     "loginbutton": "Inicia la sessió",

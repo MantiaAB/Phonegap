@@ -32,7 +32,7 @@
     "invalidurl": "Ongeldige url",
     "invalidvaluemax": "De maximum waarde is {{$a}}",
     "invalidvaluemin": "De minimum waard eis {{$a}}",
-    "localmobileunexpectedresponse": "Moodle Mobile Additional Features Check gaf een onverwacht antwoord. Je zult aanmelden via de standaard Mobile service.",
+    "localmobileunexpectedresponse": "Moodle Mantia App Additional Features Check gaf een onverwacht antwoord. Je zult aanmelden via de standaard Mobile service.",
     "loggedoutssodescription": "Je moet opnieuw aanmelden. Je moet aanmelden met een browservenster.",
     "login": "Login",
     "loginbutton": "Inloggen",

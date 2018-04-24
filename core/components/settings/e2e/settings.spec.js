@@ -139,7 +139,7 @@ describe('User can change App settings', function () {
         }).then(function () {
             return MM.clickOn('About');
         }).then(function () {
-            expect(MM.getView().getText()).toContain(/Moodle Mobile \d+\.\d+\.\d+/);
+            expect(MM.getView().getText()).toContain(/Moodle Mantia App \d+\.\d+\.\d+/);
             done();
         });
     });

@@ -31,7 +31,7 @@
     "invalidurl": "Ugyldig URL",
     "invalidvaluemax": "Højeste værdi er {{$a}}",
     "invalidvaluemin": "Mindste værdi er {{$a}}",
-    "localmobileunexpectedresponse": "Du har fået en uventet reaktion fra Moodle Mobile Additional Features, så du vil blive godkendt ved hjælp af standard Mobile service.",
+    "localmobileunexpectedresponse": "Du har fået en uventet reaktion fra Moodle Mantia App Additional Features, så du vil blive godkendt ved hjælp af standard Mobile service.",
     "login": "Log ind",
     "loginbutton": "Login",
     "logininsiterequired": "Du skal logge på websiden via en browser",

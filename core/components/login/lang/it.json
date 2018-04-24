@@ -29,7 +29,7 @@
     "invalidurl": "L'URL non è valido",
     "invalidvaluemax": "Il valore massimo è {{$a}}",
     "invalidvaluemin": "Il valore minimo è {{$a}}",
-    "localmobileunexpectedresponse": "Il controllo delle Moodle Mobile Additional Feature ha restituito una risposta inattesa, sarai autenticato tramite i servizi Mobile standard.",
+    "localmobileunexpectedresponse": "Il controllo delle Moodle Mantia App Additional Feature ha restituito una risposta inattesa, sarai autenticato tramite i servizi Mobile standard.",
     "login": "Login",
     "loginbutton": "Login",
     "logininsiterequired": "Devi autenticarti usando una finestra browser",

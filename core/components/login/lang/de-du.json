@@ -32,7 +32,7 @@
     "invalidurl": "Ungültige URL",
     "invalidvaluemax": "Der Maximalwert ist {{$a}}.",
     "invalidvaluemin": "Der Minimalwert ist {{$a}}.",
-    "localmobileunexpectedresponse": "Die Verbindung zum Plugin 'Moodle Mobile - Zusatzfeatures' ist fehlgeschlagen. Du wirst über den standardmäßigen mobilen Webservice authentifiziert.",
+    "localmobileunexpectedresponse": "Die Verbindung zum Plugin 'Moodle Mantia App - Zusatzfeatures' ist fehlgeschlagen. Du wirst über den standardmäßigen mobilen Webservice authentifiziert.",
     "loggedoutssodescription": "Du musst dich neu authentifizieren. Melde dich im Browser auf der Website an.",
     "login": "Login",
     "loginbutton": "Anmelden",
