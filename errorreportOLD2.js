@@ -29,7 +29,7 @@
     reportedOnDBReady = false;*/
 	
 	
-var appVersion = '1.1';
+var appVersion = '0.1';
 
 /**
  * Check if error should be reported in background. If setting is not set, a confirm modal will be shown.
@@ -67,7 +67,7 @@ function sendErrorReport(msg, url, lineNumber) {
     /*var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                     '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                     encodeURIComponent(appVersion) + '&bg=1';*/
-	var reportUrl = 'http://www.basico.mantia.es';
+	var reportUrl = 'https://www.mantia.es/';
 
     if (window.device) {
         reportUrl = reportUrl + '&platform=' + encodeURIComponent(window.device.platform) +
