@@ -16,20 +16,17 @@
 // Using JS confirm function we are sure that the user get notified in a Mobile device.
 // This script should be added at the begining of the index.html and it should only use native javascript functions.
 
+var appVersion = '3.4.2 (2023)',
+    reportInBackgroundName = 'mmCoreReportInBackground',
+    errors = [],
+    ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
+    reportedOnDBReady = false;
+	
 /*var appVersion = '3.4.2 (2023)',
     reportInBackgroundName = 'mmCoreReportInBackground',
     errors = [],
     ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
     reportedOnDBReady = false;*/
-	
-/*var appVersion = '1.0',
-    reportInBackgroundName = 'mmCoreReportInBackground',
-    errors = [],
-    ignoredFiles = ['www/index.html#/site/mod_page', 'www/index.html#/site/mod_resource', 'www/index.html#/site/mm_course-section'],
-    reportedOnDBReady = false;*/
-	
-	
-var appVersion = '0.1';
 
 /**
  * Check if error should be reported in background. If setting is not set, a confirm modal will be shown.
@@ -64,10 +61,13 @@ function getStorageAndReport(reportUrl, db) {
 function sendErrorReport(msg, url, lineNumber) {
     url = url || "";
     lineNumber = lineNumber || 0;
-    /*var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
+    var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
+                    '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
+                    encodeURIComponent(appVersion) + '&bg=1';
+					
+	/*var reportUrl = 'https://basico.mantia.es/login/index.php' + encodeURIComponent(msg) +
                     '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                     encodeURIComponent(appVersion) + '&bg=1';*/
-	var reportUrl = 'https://www.mantia.es/';
 
     if (window.device) {
         reportUrl = reportUrl + '&platform=' + encodeURIComponent(window.device.platform) +
