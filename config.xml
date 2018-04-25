@@ -34,7 +34,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -532,12 +532,5 @@
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
     </gap:config-file>
-	<content src="index.html" />
-    <plugin name="cordova-plugin-file" spec="^6.0.1" />
-    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
-    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
-    <plugin name="cordova-plugin-media-capture" spec="^3.0.2" />
-    <plugin name="cordova-plugin-media" spec="^5.0.2" />
-    <engine name="android" spec="~6.3.0" />
 
 </widget>
